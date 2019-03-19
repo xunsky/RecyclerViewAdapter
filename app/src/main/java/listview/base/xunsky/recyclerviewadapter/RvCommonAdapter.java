@@ -18,7 +18,7 @@ public abstract class RvCommonAdapter<T,VH extends RecyclerView.ViewHolder> exte
     private Context mContext;
     public List<T> mDatas;
     protected LayoutInflater mLayoutInflater;
-    public RvCommonAdapter(Context context, ArrayList<T> datas) {
+    public RvCommonAdapter(Context context, List<T> datas) {
         mContext = context;
         mDatas = datas;
         mLayoutInflater = LayoutInflater.from(context);
