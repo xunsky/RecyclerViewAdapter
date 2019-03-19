@@ -1,4 +1,4 @@
-package listview.base.xunsky.recyclerviewadapter;
+package xunsky.base.RecyclerViewHolderAdapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -40,7 +40,7 @@ public abstract class RvCommonAdapter<T,VH extends RecyclerView.ViewHolder> exte
     public void onBindViewHolder(VH holder, final int position){
         T data=position<mDatas.size()?mDatas.get(position):null;
         if (data==null)return;
-        if (this.mListener!=null){
+        if (mListener!=null){
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

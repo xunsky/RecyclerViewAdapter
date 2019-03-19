@@ -1,4 +1,4 @@
-package listview.base.xunsky.recyclerviewadapter.RecyclerViewHolderAdapter;
+package xunsky.base.RecyclerViewHolderAdapter;
 
 import android.annotation.TargetApi;
 import android.content.res.ColorStateList;

@@ -1,23 +1,24 @@
-package listview.base.xunsky.recyclerviewadapter.RecyclerViewHolderAdapter;
-
+package xunsky.base.RecyclerViewHolderAdapter;
 import android.content.Context;
 import android.support.annotation.LayoutRes;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import listview.base.xunsky.recyclerviewadapter.RvCommonAdapter;
+import xunsky.base.RecyclerViewHolderAdapter.RvCommonAdapter;
+import xunsky.base.RecyclerViewHolderAdapter.RvCommonHolder;
 
 
 /**
  * Created by junx on 2017/11/14.
  */
 
-public abstract class RvAdapter<T> extends RvCommonAdapter<T,RvCommonHolder> {
-    @LayoutRes int mLayoutResId;
+public abstract class RvAdapter<T> extends RvCommonAdapter<T, RvCommonHolder> {
+
+    @LayoutRes
+    int mLayoutResId;
     public RvAdapter(Context context, List<T> datas, @LayoutRes int layoutResId) {
         super(context, datas);
         mLayoutResId=layoutResId;

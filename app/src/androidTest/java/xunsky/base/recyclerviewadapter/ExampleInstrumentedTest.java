@@ -1,4 +1,4 @@
-package listview.base.xunsky.recyclerviewadapter;
+package xunsky.base.recyclerviewadapter;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("listview.base.xunsky.recyclerviewadapter", appContext.getPackageName());
+        assertEquals("xunsky.base.recyclerviewadapter", appContext.getPackageName());
     }
 }

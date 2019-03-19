@@ -1,4 +1,4 @@
-package listview.base.xunsky.recyclerviewadapter;
+package xunsky.base.recyclerviewadapter;
 
 import org.junit.Test;
 
